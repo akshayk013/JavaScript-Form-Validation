@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <img src="images/2155223.jpg" />
+        </div>
+
+
+        <div class="right">
+
+            <h1>Sign Up</h1>
+
+            <div class="rightcontent">
+
+                <form aciton="index.html" name="myForm" onsubmit="return val()" method="post">
+
+
+                    <div id="name" class="formdesign">
+                        <input type="text" placeholder="Name" name="fname">
+                        <br><span class="formerror"> </span>
+                    </div>
+
+                    <div id="email" class="formdesign">
+
+                        <input type="email" placeholder="Email" name="femail">
+                        <br><span class="formerror"> </span>
+                    </div>
+
+                    <div id="phone" class="formdesign">
+                        <input type="text" placeholder="Phone"  name="fphone">
+                        <br><span class="formerror"> </span>
+                    </div>
+
+                    <div id="pass" class="formdesign">
+                        <input type="password" placeholder="Password" name="fpass">
+                        <br><span class="formerror"> </span>
+                    </div>
+
+                    <div id="cpass" class="formdesign">
+                        <input type="password" placeholder="Confirm Password" name="fcpass">
+                        <br><span class="formerror"> </span>
+                    </div>
+
+                    <input type="submit" class="but" value="Submit">
+
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
